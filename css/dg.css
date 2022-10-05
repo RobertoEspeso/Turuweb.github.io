@@ -1,0 +1,120 @@
+/*---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------DISEÑO GRÁFICO-----------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+h2 {
+  font-size: 1em;
+}
+p {
+  font-size: 0.6em;
+}
+.img-responsive {
+  width: 100%;
+}
+.img-responsive-50 {
+  width: 50%;
+}
+.contenedorInicial {
+  text-align: center;
+  padding: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.contenedor-flex-centrado {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2em;
+}
+.contenedor-flex-enlinea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navegadorTrabajos {
+  border-radius: 10px;
+  width: 100%;
+  height: 80px;
+  background-color: var(--azulClaro);
+  color: var(--negro);
+}
+.contenedor-info {
+  background-color: var(--blanco);
+  border-radius: 15px;
+  padding: 2em;
+  align-items: flex-start;
+  row-gap: 0em;
+}
+.contenedor-info h2,
+.contenedor-info p {
+  text-align: left;
+  color: var(--negro);
+}
+
+.video-w-80 {
+  width: 80%;
+}
+.splide__slide img {
+  width: 100%;
+}
+.titularesDG {
+  font-size: 1em;
+}
+
+.subtitularesDG {
+  font-size: 0.7em;
+}
+
+.parrafosDG {
+  font-size: 0.5em;
+}
+.contenedorDetalles {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.contenedorDetalles .parrafoDetalles {
+  padding-right: 50px;
+}
+
+.fa-circle-right,
+.fa-circle-left {
+  transition-duration: 0.5s;
+  color: var(--negro);
+}
+
+.fa-circle-right:hover,
+.fa-circle-left:hover {
+  color: var(--blanco);
+  transition-duration: 0.5s;
+  transform: scale(1.5);
+}
+
+.iconsSoft {
+  border-left: 2px solid;
+}
+.iconsSoft img {
+  max-width: 100px;
+}
+
+.noSeVe {
+  display: none;
+}
+
+.seVe {
+  display: flex;
+}
+
+.contenedorIframeYt {
+  width: 70vw;
+  height: 80vh;
+}
+.iframeYt {
+  width: 100%;
+  height: 100%;
+}
