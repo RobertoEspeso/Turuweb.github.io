@@ -71,8 +71,10 @@ switch (proyectoElegido) {
     </div>
   </section>`;
     crearSlider1();
-    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video1";
-    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video1";
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion11";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion11";
     flechaNavSuperiorDerecha.href = "grafico.html?proyectoElegido=grafico2";
     flechaNavInferiorDerecha.href = "grafico.html?proyectoElegido=grafico2";
     tituloTrabajo.innerHTML = "Loi Medioambiente";
