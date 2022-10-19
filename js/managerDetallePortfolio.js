@@ -1536,22 +1536,378 @@ switch (proyectoElegido) {
     break;
   //CASOS DE VIDEO
   case "video1":
-    titulo.innerHTML = "Soy el video 1";
+    pantallaGraficos.innerHTML = `
+        <section class="contenedorIframeYt">
+        <iframe
+          src="https://www.youtube.com/embed/rvJ3mlZbF2w" 
+          title="YouTube video player"
+          frameborder="0"
+          allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          controlls
+          class="iframeYt"
+        ></iframe>
+      </section>
+        `;
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD11";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD11";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video2";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video2";
+    tituloTrabajo.innerHTML = "La pasta - Alos";
+    parrafoDetalles.innerHTML = "Edición de video con locución en Premiere";
+    iconSoft.innerHTML = `<img
+    src="img/otrasPaginas/iconosSoft/premierePro.webp"
+    alt=""
+    srcset=""
+  />`;
     break;
   case "video2":
-    let reelVideo2 = document.getElementById("reel-video2");
-    reelVideo2.classList.remove("noSeVe");
-    titulo.innerHTML = "Soy el video 2";
+    pantallaGraficos.innerHTML = `
+          <section class="contenedorIframeYt">
+          <iframe
+            src="https://www.youtube.com/embed/RQuJnszSWBo" 
+            title="YouTube video player"
+            frameborder="0"
+            allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            controlls
+            class="iframeYt"
+          ></iframe>
+        </section>
+          `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video1";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video1";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video3";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video3";
+    tituloTrabajo.innerHTML = "Ciudad Futura";
+    parrafoDetalles.innerHTML = "Matte Painting sobre video + Element 3D";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/photoshop.webp" alt="" srcset="" /><img
+      src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+      alt=""
+      srcset=""
+    />`;
     break;
   case "video3":
-    titulo.innerHTML = "Soy el video 3";
+    pantallaGraficos.innerHTML = `
+          <section class="contenedorIframeYt">
+          <iframe
+            src="https://www.youtube.com/embed/sjy6bP0L3DA" 
+            title="YouTube video player"
+            frameborder="0"
+            allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            controlls
+            class="iframeYt"
+          ></iframe>
+        </section>
+          `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video2";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video2";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video4";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video4";
+    tituloTrabajo.innerHTML = "Demonio";
+    parrafoDetalles.innerHTML =
+      "Efecto Dolly + FX en ojos, realizado todo con After Effects.";
+    iconSoft.innerHTML = `      <img
+      src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+      alt=""
+      srcset=""
+    />`;
     break;
-  //CASOS DE 3D
-  case "tresD1":
-    titulo.innerHTML = "Soy el 3d 1";
+  case "video4":
+    pantallaGraficos.innerHTML = `
+            <section class="contenedorIframeYt">
+            <iframe
+              src="https://www.youtube.com/embed/v_-ATlyhzpc" 
+              title="YouTube video player"
+              frameborder="0"
+              allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              controlls
+              class="iframeYt"
+            ></iframe>
+          </section>
+          <section class="contenedorIframeYt">
+          <iframe
+            src="https://www.youtube.com/embed/5Y2IQHIgs9I" 
+            title="YouTube video player"
+            frameborder="0"
+            allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            controlls
+            class="iframeYt"
+          ></iframe>
+        </section>
+        <section class="contenedorIframeYt">
+        <iframe
+          src="https://www.youtube.com/embed/Azk8gGbGuyk" 
+          title="YouTube video player"
+          frameborder="0"
+          allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          controlls
+          class="iframeYt"
+        ></iframe>
+      </section>
+      <section class="contenedorIframeYt">
+      <iframe
+        src="https://www.youtube.com/embed/MgzYBj01XMc" 
+        title="YouTube video player"
+        frameborder="0"
+        allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        controlls
+        class="iframeYt"
+      ></iframe>
+    </section>
+            `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video3";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video3";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video5";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video5";
+    tituloTrabajo.innerHTML = "Vino Vendimiario";
+    parrafoDetalles.innerHTML =
+      "Stop motion y animación. Realización en Premiere y After Effects";
+    iconSoft.innerHTML = `<img
+    src="img/otrasPaginas/iconosSoft/premierePro.webp"
+    alt=""
+    srcset=""
+  /><img
+        src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+        alt=""
+        srcset=""
+      />`;
     break;
-  case "tresD2":
-    titulo.innerHTML = "Soy el 3d 2";
+  case "video5":
+    pantallaGraficos.innerHTML = `
+            <section class="contenedorIframeYt">
+              <iframe
+                src="https://www.youtube.com/embed/mvHxxrFgkDo" 
+                title="YouTube video player"
+                frameborder="0"
+                allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                controlls
+                class="iframeYt"
+              ></iframe>
+            </section> `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video4";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video4";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video6";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video6";
+    tituloTrabajo.innerHTML = "Un rato con él";
+    parrafoDetalles.innerHTML =
+      "Teaser de obra de teatro. Ilustración y animación. Realizado en After Effects";
+    iconSoft.innerHTML = `      <img
+    src="img/otrasPaginas/iconosSoft/illustrator.webp"
+    alt=""
+    srcset=""
+  /><img
+          src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+          alt=""
+          srcset=""
+        />`;
+    break;
+  case "video6":
+    pantallaGraficos.innerHTML = `
+              <section class="contenedorIframeYt">
+                <iframe
+                  src="https://www.youtube.com/embed/eHj4AJDH6w4" 
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  controlls
+                  class="iframeYt"
+                ></iframe>
+              </section> `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video5";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video5";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video7";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video7";
+    tituloTrabajo.innerHTML = "Te tío la Posta - Personaje";
+    parrafoDetalles.innerHTML =
+      "Creación de personaje estereotípico, identidad, canal y capítulo temática 'Pandemia'. Producción y Postproducción";
+    iconSoft.innerHTML = `      <img
+      src="img/otrasPaginas/iconosSoft/illustrator.webp"
+      alt=""
+      srcset=""
+    />
+    <img
+    src="img/otrasPaginas/iconosSoft/premierePro.webp"
+    alt=""
+    srcset=""
+  /><img
+            src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+            alt=""
+            srcset=""
+          />`;
+    break;
+  case "video7":
+    pantallaGraficos.innerHTML = `
+      <section class="contenedorIframeYt">
+      <iframe
+        src="https://www.youtube.com/embed/RaTWoeD6deg" 
+        title="YouTube video player"
+        frameborder="0"
+        allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        controlls
+        class="iframeYt"
+      ></iframe>
+    </section>
+    <section class="contenedorIframeYt">
+      <iframe
+        src="https://www.youtube.com/embed/RaTWoeD6deg" 
+        title="YouTube video player"
+        frameborder="0"
+        allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        controlls
+        class="iframeYt"
+      ></iframe>
+    </section> `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video6";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video6";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video8";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video8";
+    tituloTrabajo.innerHTML = "Campaña Awarness - Ayudar nos sienta bien";
+    parrafoDetalles.innerHTML =
+      "Busqueda y fundamento de concepto, storyteiling, estrategía en rrss, diseño gráfico y audivisual.";
+    iconSoft.innerHTML = `      <img
+    src="img/otrasPaginas/iconosSoft/illustrator.webp"
+    alt=""
+    srcset=""
+  />
+      <img
+      src="img/otrasPaginas/iconosSoft/premierePro.webp"
+      alt=""
+      srcset=""
+    /><img
+              src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+              alt=""
+              srcset=""
+            />`;
+    break;
+  case "video8":
+    pantallaGraficos.innerHTML = `
+        <section class="contenedorIframeYt">
+        <iframe
+          src="https://www.youtube.com/embed/Jj3RT-1DVVg" 
+          title="YouTube video player"
+          frameborder="0"
+          allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          controlls
+          class="iframeYt"
+        ></iframe>
+      </section> `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video7";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video7";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video9";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video9";
+    tituloTrabajo.innerHTML = "World of Legends";
+    parrafoDetalles.innerHTML =
+      "Realización de matte painting sobre el mundo de League of Legends";
+    iconSoft.innerHTML = `      <img src="img/otrasPaginas/iconosSoft/photoshop.webp" alt="" srcset="" />
+        <img
+        src="img/otrasPaginas/iconosSoft/premierePro.webp"
+        alt=""
+        srcset=""
+      /><img
+                src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+                alt=""
+                srcset=""
+              />`;
+    break;
+  case "video9":
+    pantallaGraficos.innerHTML = `
+        <section class="contenedorIframeYt">
+        <iframe
+          src="https://www.youtube.com/embed/9z7vQK0vw0U" 
+          title="YouTube video player"
+          frameborder="0"
+          allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          controlls
+          class="iframeYt"
+        ></iframe>
+      </section> `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video8";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video8";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video10";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video10";
+    tituloTrabajo.innerHTML = "Resumen casamiento";
+    parrafoDetalles.innerHTML = "Montaje de video y sonoro";
+    iconSoft.innerHTML = `<img
+        src="img/otrasPaginas/iconosSoft/premierePro.webp"
+        alt=""
+        srcset=""
+      /><img
+                src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+                alt=""
+                srcset=""
+              />`;
+    break;
+  case "video10":
+    pantallaGraficos.innerHTML = `
+          <section class="contenedorIframeYt">
+          <iframe
+            src="https://www.youtube.com/embed/eoOGQj7yZ20" 
+            title="YouTube video player"
+            frameborder="0"
+            allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            controlls
+            class="iframeYt"
+          ></iframe>
+        </section> `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video9";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video9";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video11";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video11";
+    tituloTrabajo.innerHTML = "Los chicos y las tics";
+    parrafoDetalles.innerHTML = "Motion graphics";
+    iconSoft.innerHTML = `<img
+          src="img/otrasPaginas/iconosSoft/premierePro.webp"
+          alt=""
+          srcset=""
+        /><img
+                  src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+                  alt=""
+                  srcset=""
+                />`;
+    break;
+  case "video11":
+    pantallaGraficos.innerHTML = `
+            <section class="contenedorIframeYt">
+            <iframe
+              src="https://www.youtube.com/embed/rypn7bCQLRM" 
+              title="YouTube video player"
+              frameborder="0"
+              allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              controlls
+              class="iframeYt"
+            ></iframe>
+          </section> `;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video10";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video10";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion1";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion1";
+    tituloTrabajo.innerHTML = "Sugerencias Netflix";
+    parrafoDetalles.innerHTML = "Parallax realizado en After Effects";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/photoshop.webp" alt="" srcset="" /><img
+            src="img/otrasPaginas/iconosSoft/premierePro.webp"
+            alt=""
+            srcset=""
+          /><img
+                    src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+                    alt=""
+                    srcset=""
+                  />`;
     break;
   //CASOS DE PROGRAMACION
   case "programacion1":
