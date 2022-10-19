@@ -1012,6 +1012,528 @@ switch (proyectoElegido) {
       "Creación de manual de marca y animación de logo";
     iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/illustrator.webp" alt="" srcset=""/> <img src="img/otrasPaginas/iconosSoft/afterEffects.webp" alt="" srcset=""/>`;
     break;
+  //CASOS DE 3D
+  case "tresD1":
+    pantallaGraficos.innerHTML = `
+    <section
+    id="slider17"
+    class="splide"
+    aria-labelledby="carousel-heading"
+  >
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/1-3D-vw/turut-multimedia-vw-detalle-1.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/1-3D-vw/turut-multimedia-vw-detalle-2.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/1-3D-vw/turut-multimedia-vw-detalle-3.jpg"
+            alt=""
+          />
+      </li>
+      <li class="splide__slide">
+        <img
+          src="img/otrasPaginas/mod3D/1-3D-vw/turut-multimedia-vw-detalle-4.jpg"
+          alt=""
+        />
+      </li>
+    </ul>
+    </div>
+  </section>
+  <section class="contenedorIframeYt">
+  <iframe
+    src="https://www.youtube.com/embed/F0DzE25y1dU"
+    title="YouTube video player"
+    frameborder="0"
+    allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    controlls
+    class="iframeYt"></iframe>
+</section>
+  `;
+    crearSlider17();
+    flechaNavSuperiorIzquierda.href = "grafico.html?proyectoElegido=grafico23";
+    flechaNavInferiorIzquierda.href = "grafico.html?proyectoElegido=grafico23";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD2";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD2";
+    tituloTrabajo.innerHTML = "Camioneta VW";
+    parrafoDetalles.innerHTML =
+      "Camioneta modelada en 3D Max y texturizada en keyshot";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" />`;
+    break;
+  case "tresD2":
+    pantallaGraficos.innerHTML = `
+    <section
+    id="slider18"
+    class="splide"
+    aria-labelledby="carousel-heading"
+  >
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/2-3D-mouseTron/mouseTron1.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/2-3D-mouseTron/mouseTron2.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/2-3D-mouseTron/mouseTron3.jpg"
+            alt=""
+          />
+      </li>
+    </ul>
+    </div>
+  </section>
+  <section class="contenedorIframeYt">
+  <iframe
+    src="https://www.youtube.com/embed/0EZzB1BKATw"
+    title="YouTube video player"
+    frameborder="0"
+    allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    controlls
+    class="iframeYt"></iframe>
+</section>
+  `;
+    crearSlider18();
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD1";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD1";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD3";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD3";
+    tituloTrabajo.innerHTML = "Mouse Ryzer -  Tematica Tron";
+    parrafoDetalles.innerHTML =
+      "Mouse y ciudad modeladas, animado y texturizado en 3Ds Max con Vray, Post producción en After Effects.";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+    src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+    alt=""
+    srcset=""
+  />`;
+    break;
+  case "tresD3":
+    pantallaGraficos.innerHTML = `
+    <section
+    id="slider19"
+    class="splide"
+    aria-labelledby="carousel-heading"
+  >
+    <div class="splide__track">
+      <ul class="splide__list">
+      <li class="splide__slide">
+      <img
+        src="img/otrasPaginas/mod3D/3-3D-robotito/robotito01.jpg"
+        alt=""
+      />
+    </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/3-3D-robotito/robotito1.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/3-3D-robotito/robotito2.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/3-3D-robotito/robotito3.jpg"
+            alt=""
+          />
+      </li>
+      <li class="splide__slide">
+      <img
+        src="img/otrasPaginas/mod3D/3-3D-robotito/robotito4.jpg"
+        alt=""
+      />
+  </li>
+    </ul>
+    </div>
+  </section>
+  `;
+    crearSlider19();
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD2";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD2";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD4";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD4";
+    tituloTrabajo.innerHTML = "Robot";
+    parrafoDetalles.innerHTML = "Modelado y texturizado";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+    src="img/otrasPaginas/iconosSoft/substancePainter.webp"
+    alt=""
+    srcset=""
+  />`;
+    break;
+  case "tresD4":
+    pantallaGraficos.innerHTML = `
+    <section
+    id="slider20"
+    class="splide"
+    aria-labelledby="carousel-heading"
+  >
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/4-3D-arcadeMetalSlug/metalSlug1.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/4-3D-arcadeMetalSlug/metalSlug2.jpg"
+            alt=""
+          />
+        </li>
+    </ul>
+    </div>
+  </section>
+  `;
+    crearSlider20();
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD3";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD3";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD5";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD5";
+    tituloTrabajo.innerHTML = "Arcade - Metal Slug";
+    parrafoDetalles.innerHTML = "Modelado y texturizado";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+    src="img/otrasPaginas/iconosSoft/substancePainter.webp"
+    alt=""
+    srcset=""
+  />`;
+    break;
+  case "tresD5":
+    pantallaGraficos.innerHTML = `
+      <section
+      id="slider21"
+      class="splide"
+      aria-labelledby="carousel-heading"
+    >
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img
+              src="img/otrasPaginas/mod3D/5-3D-bajo/bajo1.jpg"
+              alt=""
+            />
+          </li>
+          <li class="splide__slide">
+            <img
+              src="img/otrasPaginas/mod3D/5-3D-bajo/bajo2.jpg"
+              alt=""
+            />
+          </li>
+          <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/5-3D-bajo/bajo3.jpg"
+            alt=""
+          />
+        </li>
+      </ul>
+      </div>
+    </section>
+    `;
+    crearSlider21();
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD4";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD4";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD6";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD6";
+    tituloTrabajo.innerHTML = "Bajo 3D ";
+    parrafoDetalles.innerHTML = "Modelado en 3D Max y texturizado en Keyshot";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" />`;
+    break;
+  case "tresD6":
+    pantallaGraficos.innerHTML = `
+      <section
+      id="slider22"
+      class="splide"
+      aria-labelledby="carousel-heading"
+    >
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img
+              src="img/otrasPaginas/mod3D/6-3D-globos/globo1.jpg"
+              alt=""
+            />
+          </li>
+          <li class="splide__slide">
+            <img
+              src="img/otrasPaginas/mod3D/6-3D-globos/globo2.jpg"
+              alt=""
+            />
+          </li>
+          <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/6-3D-globos/globo3.jpg"
+            alt=""
+          />
+        </li>
+      </ul>
+      </div>
+    </section>
+    `;
+    crearSlider22();
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD5";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD5";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD7";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD7";
+    tituloTrabajo.innerHTML = "Globo Aerostatico";
+    parrafoDetalles.innerHTML =
+      "Modelado en 3D Max y texturizado en Substance painter";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+    src="img/otrasPaginas/iconosSoft/substancePainter.webp"
+    alt=""
+    srcset=""
+  />`;
+    break;
+  case "tresD7":
+    pantallaGraficos.innerHTML = `
+    `;
+
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD6";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD6";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD8";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD8";
+    tituloTrabajo.innerHTML = "Juego de la Copa";
+    parrafoDetalles.innerHTML =
+      "Modelado en 3D Max y texturizado en Substance painter";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+    src="img/otrasPaginas/iconosSoft/substancePainter.webp"
+    alt=""
+    srcset=""
+  />`;
+    break;
+  case "tresD8":
+    pantallaGraficos.innerHTML = `
+      <section
+      id="slider23"
+      class="splide"
+      aria-labelledby="carousel-heading"
+    >
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img
+              src="img/otrasPaginas/mod3D/8-3D-arcadeDaytona/daytona1.jpg"
+              alt=""
+            />
+          </li>
+          <li class="splide__slide">
+            <img
+              src="img/otrasPaginas/mod3D/8-3D-arcadeDaytona/daytona2.jpg"
+              alt=""
+            />
+          </li>
+          <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/8-3D-arcadeDaytona/daytona3.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+        <img
+          src="img/otrasPaginas/mod3D/8-3D-arcadeDaytona/daytona4.jpg"
+          alt=""
+        />
+      </li>
+      <li class="splide__slide">
+      <img
+        src="img/otrasPaginas/mod3D/8-3D-arcadeDaytona/daytona5.jpg"
+        alt=""
+      />
+    </li>
+      </ul>
+      </div>
+    </section>
+    <section class="contenedorIframeYt">
+    <iframe
+      src="https://www.youtube.com/embed/YphNSSkZj0s" 
+      title="YouTube video player"
+      frameborder="0"
+      allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      controlls
+      class="iframeYt"
+    ></iframe>
+  </section>
+    `;
+    crearSlider23();
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD7";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD7";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD9";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD9";
+    tituloTrabajo.innerHTML = "Juego Daytona Twins";
+    parrafoDetalles.innerHTML =
+      "Modelado en 3D Max y texturizado en Substance painter";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+    src="img/otrasPaginas/iconosSoft/substancePainter.webp"
+    alt=""
+    srcset=""
+  />`;
+    break;
+  case "tresD9":
+    pantallaGraficos.innerHTML = `
+    `;
+
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD8";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD8";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD10";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD10";
+    tituloTrabajo.innerHTML = "Arcade Vr Skillz";
+    parrafoDetalles.innerHTML =
+      "Modelado en 3D Max y texturizado en Substance painter";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+    src="img/otrasPaginas/iconosSoft/substancePainter.webp"
+    alt=""
+    srcset=""
+  />`;
+    break;
+  case "tresD10":
+    pantallaGraficos.innerHTML = `
+        <section
+        id="slider24"
+        class="splide"
+        aria-labelledby="carousel-heading"
+      >
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img
+                src="img/otrasPaginas/mod3D/10-3D-auricular/auricular1.jpg"
+                alt=""
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="img/otrasPaginas/mod3D/10-3D-auricular/auricular2.jpg"
+                alt=""
+              />
+            </li>
+            <li class="splide__slide">
+            <img
+              src="img/otrasPaginas/mod3D/10-3D-auricular/auricular3.jpg"
+              alt=""
+            />
+          </li>
+          <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/10-3D-auricular/auricular4.jpg"
+            alt=""
+          />
+        </li>
+        </ul>
+        </div>
+      </section>
+      <section class="contenedorIframeYt">
+      <iframe
+        src="https://www.youtube.com/embed/nWVDAS3m6EQ" 
+        title="YouTube video player"
+        frameborder="0"
+        allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        controlls
+        class="iframeYt"
+      ></iframe>
+    </section>
+      `;
+    crearSlider24();
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD9";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD9";
+    flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD11";
+    flechaNavInferiorDerecha.href = "3d.html?proyectoElegido=tresD11";
+    tituloTrabajo.innerHTML = "Auricular";
+    parrafoDetalles.innerHTML =
+      "Auricular modelado en 3D Max y texturizado en Substance Painter";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+      src="img/otrasPaginas/iconosSoft/substancePainter.webp"
+      alt=""
+      srcset=""
+    />`;
+    break;
+  case "tresD11":
+    pantallaGraficos.innerHTML = `
+          <section
+          id="slider25"
+          class="splide"
+          aria-labelledby="carousel-heading"
+        >
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img
+                  src="img/otrasPaginas/mod3D/11-3D-halloween/halloween1.jpg"
+                  alt=""
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  src="img/otrasPaginas/mod3D/11-3D-halloween/halloween2.jpg"
+                  alt=""
+                />
+              </li>
+              <li class="splide__slide">
+              <img
+                src="img/otrasPaginas/mod3D/11-3D-halloween/halloween3.jpg"
+                alt=""
+              />
+            </li>
+            <li class="splide__slide">
+            <img
+              src="img/otrasPaginas/mod3D/11-3D-halloween/halloween4.jpg"
+              alt=""
+            />
+          </li>
+          </ul>
+          </div>
+        </section>
+        <section class="contenedorIframeYt">
+        <iframe
+          src="https://www.youtube.com/embed/oxjZ4VlRxd0" 
+          title="YouTube video player"
+          frameborder="0"
+          allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          controlls
+          class="iframeYt"
+        ></iframe>
+      </section>
+        `;
+    crearSlider25();
+    flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD10";
+    flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD10";
+    flechaNavSuperiorDerecha.href = "video.html?proyectoElegido=video1";
+    flechaNavInferiorDerecha.href = "video.html?proyectoElegido=video1";
+    tituloTrabajo.innerHTML = "Halloween";
+    parrafoDetalles.innerHTML =
+      "Modelado, texturizado, animación, ecualización y creación de fluidos 3D";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" /><img
+        src="img/otrasPaginas/iconosSoft/substancePainter.webp"
+        alt=""
+        srcset=""
+      /><img
+      src="img/otrasPaginas/iconosSoft/afterEffects.webp"
+      alt=""
+      srcset=""
+    /><img src="img/otrasPaginas/iconosSoft/realFlow.webp" alt="" srcset="" /><img src="img/otrasPaginas/iconosSoft/audition.webp" alt="" srcset="" />`;
+    break;
   //CASOS DE VIDEO
   case "video1":
     titulo.innerHTML = "Soy el video 1";

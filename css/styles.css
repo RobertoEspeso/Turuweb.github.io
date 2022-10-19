@@ -230,6 +230,9 @@ p {
 /*---------CONTENIDO -----------*/
 /*---------------------------*/
 .containerPresentacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 120vh;
   text-align: center;
   padding: 1em;
@@ -237,7 +240,6 @@ p {
 
 .bannerTurut {
   width: 80%;
-  padding-top: 5em;
 }
 
 h1 span.titulo {

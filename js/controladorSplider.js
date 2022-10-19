@@ -1,3 +1,5 @@
+/*---------SLIDERS DE GRÁFICO-----------*/
+
 function crearSlider1() {
   const slider1 = new Splide("#slider1", {
     type: "loop",
@@ -176,8 +178,110 @@ function crearSlider16() {
     interval: 2000,
     pauseOnHover: true,
   });
-  slider16.mount(); //grafico 9
+  slider16.mount(); //grafico 23
 }
+
+/*---------SLIDERS DE 3D-----------*/
+function crearSlider17() {
+  const slider17 = new Splide("#slider17", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider17.mount(); //TresD1
+}
+function crearSlider18() {
+  const slider18 = new Splide("#slider18", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider18.mount(); //TresD2
+}
+
+function crearSlider19() {
+  const slider19 = new Splide("#slider19", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider19.mount(); //TresD3
+}
+function crearSlider20() {
+  const slider20 = new Splide("#slider20", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider20.mount(); //TresD4
+}
+function crearSlider21() {
+  const slider21 = new Splide("#slider21", {
+    type: "loop",
+    width: "60rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider21.mount(); //TresD5
+}
+function crearSlider22() {
+  const slider22 = new Splide("#slider22", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider22.mount(); //TresD6
+}
+function crearSlider23() {
+  const slider23 = new Splide("#slider23", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider23.mount(); //TresD8
+}
+function crearSlider24() {
+  const slider24 = new Splide("#slider24", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider24.mount(); //TresD9
+}
+function crearSlider25() {
+  const slider25 = new Splide("#slider25", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider25.mount(); //TresD11
+}
+
 /*
 --------FORMATO CUADRADO
 function crearSlider5() {
