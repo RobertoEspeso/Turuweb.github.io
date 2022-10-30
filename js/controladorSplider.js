@@ -348,3 +348,38 @@ const slider3 = new Splide("#slider3", {
   interval: 2000,
   pauseOnHover: true,
 });*/
+
+/*
+TwitchCon:
+App para celulares sin necesidad de conectarse a internet (html + css3 + js +  )
+
+Visibility:
+Web institucional para retail (wordpress php + html + css)
+
+Amofobia:
+Web institucional para campaña transmedia (html + css3)
+
+Loki Desing:
+Sitio institucional (html + csss3 + boostrap)
+
+Animaudio:
+Juego realizado para tesis multimedial (html + css3 + js)
+
+Cuarto Interactivo:
+Juego de realidad virtual con modelados y texturas propias (c# - Unity + 3dsMax + substance )
+
+Goldito:
+Minijuego de aventura (construct2 + ps + ilustrator)
+
+Assasins Creed: The ninja revenged
+Minijuego de acción (construct2 + ps)
+
+Glotoneros:
+Juego multijugador estilo pac-man (construct2 + ilustrator)
+
+TurutGames
+Sitio de exhibición de videojuegos (wordpress + html + css3)
+
+Zombies:
+Minijuego estilo plataformero (construct2 ilustrator)
+*/

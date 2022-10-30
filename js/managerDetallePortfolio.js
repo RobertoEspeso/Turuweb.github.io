@@ -2,14 +2,14 @@
 En una nueva landing plantilla realizar:
 Segun que trabajo se clickee en el portfolio del index mostrar imagenes + videos + descripción + iconos de programas utilizados + shared social media buttons + next job de este mismo en la landing plantilla
 
-1- crear una plantilla con la estructura basica de porfolio 
-2- que se pueda mostrar imagen/ carrusel de imagenes
-3- que se pueda mostrar video / carrusel video
-4- que tenga botones para compartir ese trabajo 
-2- reemplazar el contenido que tenga la plantilla anteriormente
-3- que se pueda volver al index (boton turut)
-4- que se pueda pasar al siguiente trabajo
-- que sea responsive
+1- crear una plantilla con la estructura basica de porfolio (ok)
+2- que se pueda mostrar imagen/ carrusel de imagenes (ok)
+3- que se pueda mostrar video / carrusel video (ok)
+4- que tenga botones para compartir ese trabajo (no)
+5- reemplazar el contenido que tenga la plantilla anteriormente (ok)
+6- que se pueda volver al index (boton turut) (ok)
+7- que se pueda pasar al siguiente trabajo (ok)
+8- que sea responsive
 
 //-------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Averiguamos y tomamos el url */
