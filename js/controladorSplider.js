@@ -134,9 +134,9 @@ function crearSlider12() {
   });
   slider12.mount(); //grafico 14
 }
+
 function crearSlider13() {
   const slider13 = new Splide("#slider13", {
-    wheel: true,
     type: "loop",
     width: "35rem",
     autoplay: true,

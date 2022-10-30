@@ -765,28 +765,22 @@ switch (proyectoElegido) {
         <ul class="splide__list">
           <li class="splide__slide">
             <img
-              src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy1.jpg"
+              src="img/otrasPaginas/disGraf/17-grafico-rasti/rasti1.png"
               alt=""
             />
           </li>
           <li class="splide__slide">
             <img
-              src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy2.jpg"
+              src="img/otrasPaginas/disGraf/17-grafico-rasti/rasti2.png"
               alt=""
             />
           </li>
           <li class="splide__slide">
           <img
-            src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy1.jpg"
+            src="img/otrasPaginas/disGraf/17-grafico-rasti/rasti3.png"
             alt=""
           />
         </li>
-        <li class="splide__slide">
-        <img
-          src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy2.jpg"
-          alt=""
-        />
-      </li>
       </ul>
       </div>
     </section> 
