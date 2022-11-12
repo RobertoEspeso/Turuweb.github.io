@@ -42,7 +42,8 @@ let pantallaGraficos = document.getElementById("pantallaGraficos");
 switch (proyectoElegido) {
   //CASOS DE GRAFICO
   case "grafico1":
-    pantallaGraficos.innerHTML = `              <section
+    pantallaGraficos.innerHTML = `
+    <section
     id="slider1"
     class="splide"
     aria-labelledby="carousel-heading"
@@ -51,19 +52,19 @@ switch (proyectoElegido) {
       <ul class="splide__list">
         <li class="splide__slide">
           <img
-            src="img/otrasPaginas/disGraf/1-grafico-loi/turut-multimedia-loi-medioambiente1.png"
+            src="img/otrasPaginas/disGraf/1-grafico-loi/turut-multimedia-loi-medioambiente1.webp"
             alt=""
           />
         </li>
         <li class="splide__slide">
           <img
-            src="img/otrasPaginas/disGraf/1-grafico-loi/turut-multimedia-loi-medioambiente2.jpg"
+            src="img/otrasPaginas/disGraf/1-grafico-loi/turut-multimedia-loi-medioambiente2.webp"
             alt=""
           />
         </li>
         <li class="splide__slide">
           <img
-            src="img/otrasPaginas/disGraf/1-grafico-loi/turut-multimedia-loi-medioambiente3.jpg"
+            src="img/otrasPaginas/disGraf/1-grafico-loi/turut-multimedia-loi-medioambiente3.webp"
             alt=""
           />
         </li>
@@ -1161,6 +1162,16 @@ switch (proyectoElegido) {
     </ul>
     </div>
   </section>
+  <section class="contenedorIframeYt">
+  <iframe
+    src="https://www.youtube.com/embed/m9isiz2jUWM"
+    title="YouTube video player"
+    frameborder="0"
+    allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    controlls
+    class="iframeYt"></iframe>
+</section>
   `;
     crearSlider19();
     flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD2";
@@ -1199,6 +1210,16 @@ switch (proyectoElegido) {
     </ul>
     </div>
   </section>
+  <section class="contenedorIframeYt">
+  <iframe
+    src="https://www.youtube.com/embed/LlAh6lIlTrk"
+    title="YouTube video player"
+    frameborder="0"
+    allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    controlls
+    class="iframeYt"></iframe>
+</section>
   `;
     crearSlider20();
     flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD3";
@@ -1300,6 +1321,16 @@ switch (proyectoElegido) {
     break;
   case "tresD7":
     pantallaGraficos.innerHTML = `
+    <section class="contenedorIframeYt">
+    <iframe
+      src="https://www.youtube.com/embed/gTVMFthdw8Q"
+      title="YouTube video player"
+      frameborder="0"
+      allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      controlls
+      class="iframeYt"></iframe>
+  </section>
     `;
 
     flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD6";
@@ -1385,8 +1416,36 @@ switch (proyectoElegido) {
     break;
   case "tresD9":
     pantallaGraficos.innerHTML = `
+    <section
+    id="slider26"
+    class="splide"
+    aria-labelledby="carousel-heading"
+  >
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/9-3D-arcadeSkill/arcadeSkill1.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+          <img
+            src="img/otrasPaginas/mod3D/9-3D-arcadeSkill/arcadeSkill2.jpg"
+            alt=""
+          />
+        </li>
+        <li class="splide__slide">
+        <img
+          src="img/otrasPaginas/mod3D/9-3D-arcadeSkill/arcadeSkill3.jpg"
+          alt=""
+        />
+      </li>
+    </ul>
+    </div>
+  </section>
     `;
-
+    crearSlider26();
     flechaNavSuperiorIzquierda.href = "3d.html?proyectoElegido=tresD8";
     flechaNavInferiorIzquierda.href = "3d.html?proyectoElegido=tresD8";
     flechaNavSuperiorDerecha.href = "3d.html?proyectoElegido=tresD10";

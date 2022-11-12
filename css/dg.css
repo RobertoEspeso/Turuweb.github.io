@@ -118,3 +118,63 @@ p {
   width: 100%;
   height: 100%;
 }
+
+/*--------------------------MODAL---------------------------------*/
+
+.modal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+#btn-modal {
+  display: none;
+}
+#btn-modal:checked ~ .modal {
+  opacity: 1;
+  z-index: 2;
+  visibility: visible;
+}
+
+.contenedorModal {
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  background-color: var(--blanco);
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  transition: all 500ms ease;
+  position: relative;
+}
+
+.contenedorModal header {
+  padding: 20px;
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+.contenedorModal label {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  color: var(--rojoClaro);
+  cursor: pointer;
+}
+
+.lbl-modal {
+  display: none;
+}
+.contenidoModal p.textoModal {
+  padding: 30px;
+  color: var(--negro);
+}

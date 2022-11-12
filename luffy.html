@@ -134,58 +134,67 @@
         </div>
       </div>-->
       <header class="navbar">
-        <a href="index.html">
+        <a href="#">
           <img src="./img/LogoTurut.svg" alt="Logo Turut" />
         </a>
       </header>
-      <section class="parallax4">
+      <section class="parallax">
         <div class="contenedorInicial" id="contenedorInicial">
           <div class="contenedor-flex-centrado">
-            <div class="contenedor-flex-enlinea navegadorTrabajos">
-              <a
-                id="flechaNavSuperiorIzquierda"
-                href="grafico.html?proyectoElegido=grafico23"
-                ><i class="fa-solid fa-circle-left"></i
-              ></a>
-              <h2 id="navTrabajosTitularesSuperior">
-                Modelado y texturizado 3D
-              </h2>
-              <a
-                id="flechaNavSuperiorDerecha"
-                href="3d.html?proyectoElegido=tresD2"
-                ><i class="fa-solid fa-circle-right"></i
-              ></a>
-            </div>
-            <section
-              id="pantallaGraficos"
-              class="contenedor-flex-centrado"
-            ></section>
+            <section id="pantallaGraficos" class="contenedor-flex-centrado">
+              <section
+                id="slider11"
+                class="splide"
+                aria-labelledby="carousel-heading"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img
+                        src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy1.jpg"
+                        alt=""
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy2.jpg"
+                        alt=""
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <section class="contenedorIframeYt">
+                <iframe
+                  src="https://www.youtube.com/embed/Uc5s0YEbi7c"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  controlls
+                  class="iframeYt"
+                ></iframe>
+              </section>
+            </section>
             <section class="contenedor-flex-centrado contenedor-info">
               <div>
-                <h2 id="tituloTrabajo"></h2>
+                <h2 id="tituloTrabajo">Luffy Four Gear - One Piece</h2>
               </div>
               <div>
                 <div class="contenedorDetalles">
-                  <p id="parrafoDetalles" class="parrafoDetalles"></p>
-                  <div id="iconSoft" class="iconsSoft"></div>
+                  <p id="parrafoDetalles" class="parrafoDetalles">
+                    Vectorizacion de personaje
+                  </p>
+                  <div id="iconSoft" class="iconsSoft">
+                    <img
+                      src="img/otrasPaginas/iconosSoft/illustrator.webp"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
                 </div>
               </div>
             </section>
-            <div class="contenedor-flex-enlinea navegadorTrabajos">
-              <a
-                id="flechaNavInferiorIzquierda"
-                href="grafico.html?proyectoElegido=grafico23"
-                ><i class="fa-solid fa-circle-left"></i
-              ></a>
-              <h2 id="navTrabajosTitularesInferior">
-                Modelado y texturizado 3D
-              </h2>
-              <a
-                id="flechaNavInferiorDerecha"
-                href="3d.html?proyectoElegido=tresD2"
-                ><i class="fa-solid fa-circle-right"></i
-              ></a>
-            </div>
           </div>
         </div>
       </section>
@@ -247,5 +256,8 @@
     ></script>
     <script src="js/controladorSplider.js"></script>
     <script src="./js/managerDetallePortfolio.js"></script>
+    <script>
+      crearSlider11();
+    </script>
   </body>
 </html>

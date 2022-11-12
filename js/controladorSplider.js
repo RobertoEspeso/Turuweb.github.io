@@ -268,7 +268,7 @@ function crearSlider24() {
     interval: 2000,
     pauseOnHover: true,
   });
-  slider24.mount(); //TresD9
+  slider24.mount(); //TresD10
 }
 function crearSlider25() {
   const slider25 = new Splide("#slider25", {
@@ -280,6 +280,18 @@ function crearSlider25() {
     pauseOnHover: true,
   });
   slider25.mount(); //TresD11
+}
+
+function crearSlider26() {
+  const slider26 = new Splide("#slider26", {
+    wheel: true,
+    type: "loop",
+    width: "70rem",
+    autoplay: true,
+    interval: 2000,
+    pauseOnHover: true,
+  });
+  slider26.mount(); //TresD9
 }
 
 /*
