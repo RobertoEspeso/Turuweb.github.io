@@ -806,28 +806,58 @@ switch (proyectoElegido) {
           <ul class="splide__list">
             <li class="splide__slide">
               <img
-                src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy1.jpg"
+                src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda1.jpg"
                 alt=""
               />
             </li>
             <li class="splide__slide">
               <img
-                src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy2.jpg"
+                src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda2.jpg"
                 alt=""
               />
             </li>
             <li class="splide__slide">
-            <img
-              src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy1.jpg"
+              <img
+                src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda3.jpg"
+                alt=""
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda4.jpg"
+                alt=""
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda5.jpg"
+                alt=""
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda6.jpg"
+                alt=""
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+                src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda7.jpg"
+                alt=""
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+              src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda8.jpg"
               alt=""
-            />
-          </li>
-          <li class="splide__slide">
-          <img
-            src="img/otrasPaginas/disGraf/13-grafico-luffy/luffy2.jpg"
-            alt=""
-          />
-        </li>
+              />
+            </li>
+            <li class="splide__slide">
+              <img
+              src="img/otrasPaginas/disGraf/18-grafico-bodaJony/boda9.jpg"
+              alt=""
+             />
+            </li>
         </ul>
         </div>
       </section> 

@@ -2,10 +2,10 @@
 /*---------------------------------------------DISEÑO GRÁFICO-----------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------*/
 h2 {
-  font-size: 1em;
+  font-size: 0.7em;
 }
 p {
-  font-size: 0.6em;
+  font-size: 0.5em;
 }
 .img-responsive {
   width: 100%;
@@ -45,7 +45,7 @@ p {
 .contenedor-info {
   background-color: var(--blanco);
   border-radius: 15px;
-  padding: 2em;
+  padding: 1em;
   align-items: flex-start;
   row-gap: 0em;
 }
@@ -99,7 +99,7 @@ p {
   border-left: 2px solid;
 }
 .iconsSoft img {
-  max-width: 100px;
+  max-width: 80px;
 }
 
 .noSeVe {
@@ -149,7 +149,7 @@ p {
 
 .contenedorModal {
   width: 400px;
-  height: 600px;
+  height: 385px;
   margin: auto;
   background-color: var(--blanco);
   box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
@@ -165,9 +165,11 @@ p {
 
 .contenedorModal label {
   position: absolute;
-  top: 18px;
+  border: 2px solid var(--blanco);
+  padding: 4px;
+  top: 5px;
   right: 10px;
-  color: var(--rojoClaro);
+  color: var(--blanco);
   cursor: pointer;
 }
 
@@ -177,4 +179,8 @@ p {
 .contenidoModal p.textoModal {
   padding: 30px;
   color: var(--negro);
+}
+
+.copyQr p {
+  padding-top: 1em;
 }

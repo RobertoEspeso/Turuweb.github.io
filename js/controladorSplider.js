@@ -150,7 +150,7 @@ function crearSlider14() {
   const slider14 = new Splide("#slider14", {
     wheel: true,
     type: "loop",
-    width: "35rem",
+    width: "70rem",
     autoplay: true,
     interval: 2000,
     pauseOnHover: true,
