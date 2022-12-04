@@ -574,11 +574,30 @@ footer ul li:nth-child(3) a:before {
 .noSeVe {
   display: none;
 }
+
+/*---------------------------*/
+/*-----------JUEGO IFRAME----------------*/
+/*---------------------------*/
+.contenedorJuego {
+  width: 100%;
+  height: 100%;
+}
+.juegoResponsive {
+  width: 726px;
+  height: 599px;
+}
 /*---------------------------*/
 /*---------MEDIAQUERY-----------*/
 /*---------------------------*/
 
 @media screen and (max-width: 1200px) {
+  /*---------------------------*/
+  /*-----------JUEGO IFRAME----------------*/
+  /*---------------------------*/
+  .juegoResponsive {
+    width: 674px;
+    height: 560px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -705,6 +724,13 @@ footer ul li:nth-child(3) a:before {
     margin: 10px;
     width: calc(50% - 20px);
   }
+  /*---------------------------*/
+  /*-----------JUEGO IFRAME----------------*/
+  /*---------------------------*/
+  .juegoResponsive {
+    width: 414px;
+    height: 364px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -807,6 +833,10 @@ footer ul li:nth-child(3) a:before {
   }
 
   /*---------------------------*/
-  /*---------FOOTER-----------*/
+  /*-----------JUEGO IFRAME----------------*/
   /*---------------------------*/
+  .juegoResponsive {
+    width: 288px;
+    height: 269px;
+  }
 }

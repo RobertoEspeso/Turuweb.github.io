@@ -1830,7 +1830,7 @@ switch (proyectoElegido) {
     pantallaGraficos.innerHTML = `
       <section class="contenedorIframeYt">
       <iframe
-        src="https://www.youtube.com/embed/RaTWoeD6deg" 
+        src="https://www.youtube.com/embed/TZX42onaS0o" 
         title="YouTube video player"
         frameborder="0"
         allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -1994,10 +1994,344 @@ switch (proyectoElegido) {
     break;
   //CASOS DE PROGRAMACION
   case "programacion1":
-    titulo.innerHTML = "Soy el programacion 1";
+    pantallaGraficos.innerHTML = `
+    <section class="contenedorIframeYt">
+    <iframe
+      src="https://www.youtube.com/embed/6z1hgoVwPzE" 
+      title="YouTube video player"
+      frameborder="0"
+      allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      controlls
+      class="iframeYt"
+    ></iframe>
+  </section> 
+  <div class="btnProgramacion">
+    <a href="https://yz2w3tuqvtwr6ggup9xb1w.on.drv.tw/Twitchcon%20Argentina/" target="_blank">Ver Trabajo</a>
+  </div>`;
+    flechaNavSuperiorIzquierda.href = "video.html?proyectoElegido=video11";
+    flechaNavInferiorIzquierda.href = "video.html?proyectoElegido=video11";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion2";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion2";
+    tituloTrabajo.innerHTML = "TwitchCon";
+    parrafoDetalles.innerHTML =
+      "Aplicacion para celulares sin acceso a internet para evento de twtich";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/html5.webp" alt="" srcset="" />
+<img src="img/otrasPaginas/iconosSoft/css3.webp" alt="" srcset="" />
+<img src="img/otrasPaginas/iconosSoft/javaScript.webp" alt="" srcset="" />`;
     break;
   case "programacion2":
-    titulo.innerHTML = "Soy el programacion 2";
+    pantallaGraficos.innerHTML = `
+  <section class="contenedorIframeYt">
+  <iframe
+    src="https://www.youtube.com/embed/Z04O8kkFbVc" 
+    title="YouTube video player"
+    frameborder="0"
+    allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    controlls
+    class="iframeYt"
+  ></iframe>
+</section> 
+<div class="btnProgramacion">
+  <a href="https://visibilitysolutions.us/" target="_blank">Ver Trabajo</a>
+</div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion1";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion1";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion3";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion3";
+    tituloTrabajo.innerHTML = "Visibility Solutions";
+    parrafoDetalles.innerHTML =
+      "Sitio Institucional para la marca Visibility Solutions";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/html5.webp" alt="" srcset="" />
+    <img src="img/otrasPaginas/iconosSoft/css3.webp" alt="" srcset="" />
+    <img src="img/otrasPaginas/iconosSoft/javaScript.webp" alt="" srcset="" />`;
+    break;
+  case "programacion3":
+    pantallaGraficos.innerHTML = `
+      <section class="contenedorIframeYt">
+      <iframe
+        src="https://www.youtube.com/embed/LEr0xEQ8L_8" 
+        title="YouTube video player"
+        frameborder="0"
+        allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        controlls
+        class="iframeYt"
+      ></iframe>
+    </section> 
+    <div class="btnProgramacion">
+      <a href="https://yz2w3tuqvtwr6ggup9xb1w.on.drv.tw/Amofobia/" target="_blank">Ver Trabajo</a>
+    </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion2";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion2";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion4";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion4";
+    tituloTrabajo.innerHTML = "Amofobia";
+    parrafoDetalles.innerHTML = "Sitio Web realizado para campaña transmedia";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/html5.webp" alt="" srcset="" />
+  <img src="img/otrasPaginas/iconosSoft/css3.webp" alt="" srcset="" />`;
+    break;
+  case "programacion4":
+    pantallaGraficos.innerHTML = `
+        <section class="contenedorIframeYt">
+        <iframe
+          src="https://www.youtube.com/embed/NYjRaC-UaGQ" 
+          title="YouTube video player"
+          frameborder="0"
+          allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          controlls
+          class="iframeYt"
+        ></iframe>
+      </section> 
+      <div class="btnProgramacion">
+        <a href="https://yz2w3tuqvtwr6ggup9xb1w.on.drv.tw/LokiDesign/" target="_blank">Ver Trabajo</a>
+      </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion3";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion3";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion5";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion5";
+    tituloTrabajo.innerHTML = "Loki Design";
+    parrafoDetalles.innerHTML = "Sitio Web realizado para agencia Loki Design";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/html5.webp" alt="" srcset="" />
+    <img src="img/otrasPaginas/iconosSoft/css3.webp" alt="" srcset="" />
+    <img src="img/otrasPaginas/iconosSoft/boostrap.webp" alt="" srcset="" />
+    <img src="img/otrasPaginas/iconosSoft/javaScript.webp" alt="" srcset="" />`;
+    break;
+  case "programacion5":
+    pantallaGraficos.innerHTML = `
+          <section class="contenedorIframeYt">
+          <iframe
+            src="https://www.youtube.com/embed/lyVDSZ-5Fj0" 
+            title="YouTube video player"
+            frameborder="0"
+            allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            controlls
+            class="iframeYt"
+          ></iframe>
+        </section> 
+        <div class="btnProgramacion">
+          <a href="https://imaginaudio.web.app/" target="_blank">Ver Trabajo</a>
+        </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion4";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion4";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion6";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion6";
+    tituloTrabajo.innerHTML = "Web Interctiva Animaudio";
+    parrafoDetalles.innerHTML =
+      "Web con juego sonoro desarrollada para la tesis de Turut";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/html5.webp" alt="" srcset="" />
+      <img src="img/otrasPaginas/iconosSoft/css3.webp" alt="" srcset="" />
+      <img src="img/otrasPaginas/iconosSoft/javaScript.webp" alt="" srcset="" />`;
+    break;
+  case "programacion6":
+    pantallaGraficos.innerHTML = `
+            <section class="contenedorIframeYt">
+            <iframe
+              src="https://www.youtube.com/embed/scWdY1rqKtU" 
+              title="YouTube video player"
+              frameborder="0"
+              allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              controlls
+              class="iframeYt"
+            ></iframe>
+          </section> 
+          <section class="contenedorIframeYt">
+          <iframe
+            src="https://www.youtube.com/embed/wMuNSemKErc" 
+            title="YouTube video player"
+            frameborder="0"
+            allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            controlls
+            class="iframeYt"
+          ></iframe>
+        </section> 
+          <div class="btnProgramacion">
+            <a href="#" target="_blank">Próximamente</a>
+          </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion5";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion5";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion7";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion7";
+    tituloTrabajo.innerHTML = "VR Cuarto Interactivo";
+    parrafoDetalles.innerHTML =
+      "Juego para lentes de realidad virtual desarrolado en C#";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/unity.webp" alt="" srcset="" />
+      <img src="img/otrasPaginas/iconosSoft/3dsMax.webp" alt="" srcset="" />
+      <img src="img/otrasPaginas/iconosSoft/substancePainter.webp"alt="" srcset="" />`;
+    break;
+  case "programacion7":
+    pantallaGraficos.innerHTML = `
+              <section class="contenedorIframeYt">
+              <iframe
+                src="https://www.youtube.com/embed/2rC5L6psW6A" 
+                title="YouTube video player"
+                frameborder="0"
+                allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                controlls
+                class="iframeYt"
+              ></iframe>
+            </section> 
+            <div class="btnProgramacion">
+              <a href="#" target="_blank">Próximamente</a>
+            </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion6";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion6";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion8";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion8";
+    tituloTrabajo.innerHTML = "Goldito Astronauta";
+    parrafoDetalles.innerHTML = "Juego plataformero 2d";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/construct2.webp" alt="" srcset="" />`;
+    break;
+  case "programacion8":
+    pantallaGraficos.innerHTML = `
+                <section class="contenedorIframeYt">
+                <iframe
+                  src="https://www.youtube.com/embed/Egn1gfiOt90" 
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  controlls
+                  class="iframeYt"
+                ></iframe>
+              </section> 
+              <div class="btnProgramacion">
+                <a href="#" target="_blank">Próximamente</a>
+              </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion7";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion7";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion9";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion9";
+    tituloTrabajo.innerHTML = "Ninja turtle & Asassins creed";
+    parrafoDetalles.innerHTML = "Juego arcade pixelart 2d";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/construct2.webp" alt="" srcset="" />`;
+    break;
+  case "programacion9":
+    pantallaGraficos.innerHTML = `
+                  <section class="contenedorIframeYt">
+                  <iframe
+                    src="https://www.youtube.com/embed/_USGDICormg" 
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    controlls
+                    class="iframeYt"
+                  ></iframe>
+                </section> 
+                <div class="btnProgramacion">
+                  <a href="#" target="_blank">Próximamente</a>
+                </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion8";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion8";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion10";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion10";
+    tituloTrabajo.innerHTML = "Glotoneros";
+    parrafoDetalles.innerHTML =
+      "Juego de 2 jugadores competitivo para oreo basado en pac-man";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/construct2.webp" alt="" srcset="" />`;
+    break;
+  case "programacion10":
+    pantallaGraficos.innerHTML = `
+                    <section class="contenedorIframeYt">
+                    <iframe
+                      src="https://www.youtube.com/embed/9SCttV6yIdk" 
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                      controlls
+                      class="iframeYt"
+                    ></iframe>
+                  </section> 
+                  <div class="btnProgramacion">
+                    <a href="http://turutgames.com/wp/" target="_blank">Ver Trabajo</a>
+                  </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion9";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion9";
+    flechaNavSuperiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion11";
+    flechaNavInferiorDerecha.href =
+      "programacion.html?proyectoElegido=programacion11";
+    tituloTrabajo.innerHTML = "TurutGames";
+    parrafoDetalles.innerHTML =
+      "Sitio web de sub-marca para mostrar desarrollo de videojuegos";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/html5.webp" alt="" srcset="" />
+      <img src="img/otrasPaginas/iconosSoft/css3.webp" alt="" srcset="" />
+      <img src="img/otrasPaginas/iconosSoft/javaScript.webp" alt="" srcset="" />`;
+    break;
+  case "programacion11":
+    pantallaGraficos.innerHTML = `
+    <section class="contenedorJuego">
+    <iframe
+      class="juegoResponsive"
+      allow="fullscreen; autoplay; encrypted-media"
+      src="https://games.construct.net/44381/latest"
+      frameborder="0"
+      allowfullscreen="true"
+      msallowfullscreen="true"
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+      allowpaymentrequest="false"
+      referrerpolicy="unsafe-url"
+      sandbox="allow-same-origin allow-forms allow-scripts allow-pointer-lock allow-orientation-lock allow-popups"
+      scrolling="no"
+    ></iframe>
+    </section>
+    <div class="btnProgramacion">
+    <a href="https://www.construct.net/en/free-online-games/zombies-44381/play" target="_blank">Ver Trabajo</a>
+  </div>`;
+    flechaNavSuperiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion10";
+    flechaNavInferiorIzquierda.href =
+      "programacion.html?proyectoElegido=programacion10";
+    flechaNavSuperiorDerecha.href = "grafico.html?proyectoElegido=grafico1";
+    flechaNavInferiorDerecha.href = "grafico.html?proyectoElegido=grafico1";
+    tituloTrabajo.innerHTML = "Zombies";
+    parrafoDetalles.innerHTML = "Juego arcade infinito";
+    iconSoft.innerHTML = `<img src="img/otrasPaginas/iconosSoft/construct2.webp" alt="" srcset="" />`;
     break;
   default:
     //Declaraciones ejecutadas cuando ninguno de los valores coincide con el valor de la expresión
