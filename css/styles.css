@@ -182,7 +182,7 @@ p {
 /*---------------------------*/
 
 .parallax {
-  background: url(../img/1-desk-linea-v2.png) no-repeat center;
+  background: url(../img/1-desk-linea-v2.webp) no-repeat center;
   background-size: 100% 100%;
   background-attachment: fixed;
   height: calc(100%);
@@ -602,7 +602,7 @@ footer ul li:nth-child(3) a:before {
 
 @media screen and (max-width: 768px) {
   .parallax {
-    background: url(../img/1-mob-linea-v2.png) no-repeat center;
+    background: url(../img/1-mob-linea-v2.webp) no-repeat center;
     background-size: 100% 100%;
     background-attachment: fixed;
     height: calc(100%);

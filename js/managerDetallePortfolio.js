@@ -362,17 +362,6 @@ switch (proyectoElegido) {
         </ul>
       </div>
     </section>
-    <section class="contenedorIframeYt">
-    <iframe
-      src="https://www.youtube.com/embed/aUE8HaaR3kU"
-      title="YouTube video player"
-      frameborder="0"
-      allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-      controlls
-      class="iframeYt"
-    ></iframe>
-  </section>
     `;
     crearSlider5();
     flechaNavSuperiorIzquierda.href = "grafico.html?proyectoElegido=grafico6";
@@ -967,49 +956,49 @@ switch (proyectoElegido) {
             <ul class="splide__list">
               <li class="splide__slide">
                 <img
-                  src="img/otrasPaginas/disGraf/9-grafico-foodketingPlanes/foodketingPlanes1.jpg"
+                  src="img/otrasPaginas/disGraf/23-logoTurut/manual1.webp"
                   alt=""
                 />
               </li>
               <li class="splide__slide">
                 <img
-                  src="img/otrasPaginas/disGraf/9-grafico-foodketingPlanes/foodketingPlanes2.jpg"
+                  src="img/otrasPaginas/disGraf/23-logoTurut/manual2.webp"
                   alt=""
                 />
               </li>
               <li class="splide__slide">
                 <img
-                  src="img/otrasPaginas/disGraf/9-grafico-foodketingPlanes/foodketingPlanes3.jpg"
+                  src="img/otrasPaginas/disGraf/23-logoTurut/manual3.webp"
                   alt=""
                 />
             </li>
             <li class="splide__slide">
               <img
-                src="img/otrasPaginas/disGraf/9-grafico-foodketingPlanes/foodketingPlanes4.jpg"
+                src="img/otrasPaginas/disGraf/23-logoTurut/manual4.webp"
                 alt=""
               />
             </li>
             <li class="splide__slide">
               <img
-                src="img/otrasPaginas/disGraf/9-grafico-foodketingPlanes/foodketingPlanes5.jpg"
+                src="img/otrasPaginas/disGraf/23-logoTurut/manual5.webp"
                 alt=""
               />
             </li>
             <li class="splide__slide">
               <img
-                src="img/otrasPaginas/disGraf/9-grafico-foodketingPlanes/foodketingPlanes6.jpg"
+                src="img/otrasPaginas/disGraf/23-logoTurut/manual6.webp"
                 alt=""
               />
             </li>
             <li class="splide__slide">
               <img
-                src="img/otrasPaginas/disGraf/9-grafico-foodketingPlanes/foodketingPlanes7.jpg"
+                src="img/otrasPaginas/disGraf/23-logoTurut/manual7.webp"
                 alt=""
               />
             </li>
             <li class="splide__slide">
               <img
-                src="img/otrasPaginas/disGraf/9-grafico-foodketingPlanes/foodketingPlanes8.jpg"
+                src="img/otrasPaginas/disGraf/23-logoTurut/manual8.webp"
                 alt=""
               />
             </li>
@@ -2148,7 +2137,7 @@ switch (proyectoElegido) {
     pantallaGraficos.innerHTML = `
             <section class="contenedorIframeYt">
             <iframe
-              src="https://www.youtube.com/embed/scWdY1rqKtU" 
+              src="https://www.youtube.com/embed/S4jVFxYlGmM" 
               title="YouTube video player"
               frameborder="0"
               allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2190,7 +2179,7 @@ switch (proyectoElegido) {
     pantallaGraficos.innerHTML = `
               <section class="contenedorIframeYt">
               <iframe
-                src="https://www.youtube.com/embed/2rC5L6psW6A" 
+                src="https://www.youtube.com/embed/Upnxah82dpw" 
                 title="YouTube video player"
                 frameborder="0"
                 allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2218,7 +2207,7 @@ switch (proyectoElegido) {
     pantallaGraficos.innerHTML = `
                 <section class="contenedorIframeYt">
                 <iframe
-                  src="https://www.youtube.com/embed/Egn1gfiOt90" 
+                  src="https://www.youtube.com/embed/wlqjTZ4i988" 
                   title="YouTube video player"
                   frameborder="0"
                   allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2246,7 +2235,7 @@ switch (proyectoElegido) {
     pantallaGraficos.innerHTML = `
                   <section class="contenedorIframeYt">
                   <iframe
-                    src="https://www.youtube.com/embed/_USGDICormg" 
+                    src="https://www.youtube.com/embed/vNumZVLCT7U" 
                     title="YouTube video player"
                     frameborder="0"
                     allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -2308,7 +2297,7 @@ switch (proyectoElegido) {
     <iframe
       class="juegoResponsive"
       allow="fullscreen; autoplay; encrypted-media"
-      src="https://games.construct.net/44381/latest"
+      src="https://juego-zombie.netlify.app/"
       frameborder="0"
       allowfullscreen="true"
       msallowfullscreen="true"
@@ -2321,7 +2310,7 @@ switch (proyectoElegido) {
     ></iframe>
     </section>
     <div class="btnProgramacion">
-    <a href="https://www.construct.net/en/free-online-games/zombies-44381/play" target="_blank">Ver Trabajo</a>
+    <a href="https://juego-zombie.netlify.app/" target="_blank">Ver Trabajo</a>
   </div>`;
     flechaNavSuperiorIzquierda.href =
       "programacion.html?proyectoElegido=programacion10";
