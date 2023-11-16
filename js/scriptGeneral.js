@@ -1,7 +1,10 @@
 //---------PRE LOADER-----------
+/*
 window.addEventListener("load", function () {
   document.getElementById("preloader").classList.toggle("preloader--full");
 });
+
+*/
 
 //---------ANIMACIONES-----------
 AOS.init();
